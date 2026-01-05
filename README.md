@@ -1,7 +1,8 @@
 ## 👤 Apollo Patient Kiosk: Face Recognition + Wait Time Dashboard
 
-[Click Here 👇](./face-scan.png)  
-![Face Scan](./face-scan.png)
+[Click Here 👇]  
+![Face Scan]<img width="1838" height="807" alt="image" src="https://github.com/user-attachments/assets/937e57d1-2f3d-4aa0-9677-5e45e9e3ceb4" />
+
 
 - Built a real-time face recognition system for hospital patient check-in/check-out → fetches UHID, Name, Mobile instantly
 - Implemented wait time tracking → auto-removes patient from dashboard when they leave camera view
@@ -15,7 +16,7 @@
 
 ### 1. Face Scan + Patient Info Display
 
-[![Face Scan](./face-scan.png)](./face-scan.png)  
+[![Face Scan]https://github.com/Kumarrajasekharreddy/Face-Recognition-Checkin-Checkout-Dashboard/blob/main/Detects%20multiple%20patients.png  
 *System recognizes patient → displays UHID, Name, Mobile*
 
 ### 2. Multi-Person Detection + Wait Time Tracking
