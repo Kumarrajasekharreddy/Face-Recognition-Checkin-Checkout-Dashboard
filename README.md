@@ -12,7 +12,7 @@ A real-time face recognition system for hospital patient check-in/check-out, wit
 - Auto-remove patient from dashboard when they leave camera view  
 - Built for Apollo Hospitals (simulated environment)
 - [Click Here 👇]  
-[Your paragraph text](https://github.com/user-attachments/assets/39365bb0-4f90-4b48-b47e-a6031f0d1e88)
+[![Face Scan][Your paragraph text](https://github.com/user-attachments/assets/39365bb0-4f90-4b48-b47e-a6031f0d1e88)
 
 
 ---
