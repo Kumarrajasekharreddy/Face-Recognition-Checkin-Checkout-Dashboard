@@ -1,4 +1,4 @@
-# 👤 Apollo Patient Kiosk: Face Recognition + Wait Time Dashboard
+# 👤  Patient Kiosk: Face Recognition + Wait Time Dashboard
 
 A real-time face recognition system for hospital patient check-in/check-out, with live dashboard showing waiting times.
 
