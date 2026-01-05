@@ -18,7 +18,7 @@ A real-time face recognition system for hospital patient check-in/check-out, wit
 
 ### 1. Face Scan + Patient Info Display
 
-[![Face Scan](./screenshots/face-scan.png)](./screenshots/face-scan.png)  
+[![Face Scan]([./screenshots/face-scan.png)](https://github.com/Kumarrajasekharreddy/Face-Recognition-Checkin-Checkout-Dashboard/blob/main/Detects%20multiple%20patients.png) 
 *System recognizes patient → displays UHID, Name, Mobile*
 
 ### 2. Multi-Person Detection + Wait Time Tracking
