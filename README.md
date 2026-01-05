@@ -1,37 +1,42 @@
-## 👤 Apollo Patient Kiosk: Face Recognition + Wait Time Dashboard
+# 👤 Apollo Patient Kiosk: Face Recognition + Wait Time Dashboard
 
-[Click Here 👇]  
-![Face Scan]<img width="1838" height="807" alt="image" src="https://github.com/user-attachments/assets/937e57d1-2f3d-4aa0-9677-5e45e9e3ceb4" />
-
-
-- Built a real-time face recognition system for hospital patient check-in/check-out → fetches UHID, Name, Mobile instantly
-- Implemented wait time tracking → auto-removes patient from dashboard when they leave camera view
-- Used Python, OpenCV, Flask, and HTML/CSS to build a live dashboard showing patients waiting >2 mins
-- Enhanced problem-solving, automation, and real-world system design skills
-- Simulated for Apollo Hospitals — ready for enterprise deployment
+A real-time face recognition system for hospital patient check-in/check-out, with live dashboard showing waiting times.
 
 ---
 
-## 🖼️ Screenshots (Click to View Full Size)
+## 🎯 Purpose
+
+- Automate patient identification using face scan → fetch UHID, Name, Mobile  
+- Track check-in/check-out times → calculate wait duration  
+- Display live dashboard of patients waiting >2 mins  
+- Auto-remove patient from dashboard when they leave camera view  
+- Built for Apollo Hospitals (simulated environment)
+- [Click Here 👇]  
+[Your paragraph text](https://github.com/user-attachments/assets/39365bb0-4f90-4b48-b47e-a6031f0d1e88)
+
+
+---
+
+## 🖼️ Screenshots
 
 ### 1. Face Scan + Patient Info Display
 
-[![Face Scan]https://github.com/Kumarrajasekharreddy/Face-Recognition-Checkin-Checkout-Dashboard/blob/main/Detects%20multiple%20patients.png  
+[![Face Scan](./screenshots/face-scan.png)](./screenshots/face-scan.png)  
 *System recognizes patient → displays UHID, Name, Mobile*
 
 ### 2. Multi-Person Detection + Wait Time Tracking
 
-[![Multi-Face Detection](./multi-face.png)](./multi-face.png)  
+[![Multi-Face Detection](./screenshots/multi-face.png)](./screenshots/multi-face.png)  
 *Detects multiple patients → assigns ID, tracks time since check-in*
 
 ### 3. Patient Leaves → Auto-Removed from Dashboard
 
-[![Patient Left](./patient-left.png)](./patient-left.png)  
+[![Patient Left](./screenshots/patient-left.png)](./screenshots/patient-left.png)  
 *When patient moves out of frame → removed from dashboard*
 
 ### 4. Live Waiting Patients Dashboard
 
-[![Waiting Dashboard](./waiting-dashboard.png)](./waiting-dashboard.png)  
+[![Waiting Dashboard](./screenshots/waiting-dashboard.png)](./screenshots/waiting-dashboard.png)  
 *Shows patients waiting >2 mins → helps staff prioritize*
 
 ---
@@ -54,10 +59,11 @@
 
 ---
 
-## 📦 How to Run (If Someone Wants to Clone)
+## 💡 Key Feature Highlights
 
-```bash
-git clone https://github.com/Kumarrajasekharreddy/Face-Recognition-Checkin-Checkout-Dashboard.git
-cd Face-Recognition-Checkin-Checkout-Dashboard
-pip install -r requirements.txt
-python app.py
+> ✅ **Real-Time Face Recognition**: Scans faces → matches with database → displays patient details instantly  
+> ✅ **Wait Time Tracker**: Starts timer when patient enters frame → stops when they leave  
+> ✅ **Auto-Remove Logic**: If patient is not seen for 10 seconds → removed from dashboard  
+> ✅ **Live Dashboard**: Shows only patients waiting >2 minutes → auto-refreshes every 5 seconds  
+> ✅ **Stable Display**: Even if face is briefly missed → details stay visible for 3 seconds
+
