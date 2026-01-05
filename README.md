@@ -18,22 +18,22 @@ A real-time face recognition system for hospital patient check-in/check-out, wit
 
 ### 1. Face Scan + Patient Info Display
 
-![Face Scan](./screenshots/face-scan.png)  
+[![Face Scan](./screenshots/face-scan.png)](./screenshots/face-scan.png)  
 *System recognizes patient → displays UHID, Name, Mobile*
 
 ### 2. Multi-Person Detection + Wait Time Tracking
 
-![Multi-Face Detection](./screenshots/multi-face.png)  
+[![Multi-Face Detection](./screenshots/multi-face.png)](./screenshots/multi-face.png)  
 *Detects multiple patients → assigns ID, tracks time since check-in*
 
 ### 3. Patient Leaves → Auto-Removed from Dashboard
 
-![Patient Left](./screenshots/patient-left.png)  
+[![Patient Left](./screenshots/patient-left.png)](./screenshots/patient-left.png)  
 *When patient moves out of frame → removed from dashboard*
 
 ### 4. Live Waiting Patients Dashboard
 
-![Waiting Dashboard](./screenshots/waiting-dashboard.png)  
+[![Waiting Dashboard](./screenshots/waiting-dashboard.png)](./screenshots/waiting-dashboard.png)  
 *Shows patients waiting >2 mins → helps staff prioritize*
 
 ---
@@ -56,7 +56,7 @@ A real-time face recognition system for hospital patient check-in/check-out, wit
 
 ---
 
-## 💡 Key Feature Highlights (No Code Dump — Just Explain What It Does)
+## 💡 Key Feature Highlights
 
 > ✅ **Real-Time Face Recognition**: Scans faces → matches with database → displays patient details instantly  
 > ✅ **Wait Time Tracker**: Starts timer when patient enters frame → stops when they leave  
