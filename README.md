@@ -41,6 +41,15 @@ A real-time face recognition system for hospital patient check-in/check-out, wit
 *Shows patients waiting >2 mins → helps staff prioritize*
 
 ---
+## Matching Face → Fetch Patient Info:
+best_match = face_recognition.face_distance(encodings, face)[0] < 0.5
+
+name, uhid, mobile = details[best_match_index] if best_match else ("Unknown", "", "")
+
+## Auto-Remove After 10 Seconds:
+if time.time() - last_seen[name] > 10:
+
+    del waiting_patients[name]
 
 ## 🛠️ Tech Stack
 
