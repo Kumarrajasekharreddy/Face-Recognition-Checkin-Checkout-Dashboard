@@ -22,22 +22,22 @@ A real-time face recognition system for hospital patient check-in/check-out, wit
 
 ### 1. Face Scan + Patient Info Display
 
-[![Face Scan]https://github.com/Kumarrajasekharreddy/Face-Recognition-Checkin-Checkout-Dashboard/blob/main/System%20recognizes%20patient%20.png
+[![Face Scan]https://github.com/Kumarrajasekharreddy/Face-Recognition-Checkin-Checkout-Dashboard/blob/main/screenshots/System%20recognizes%20patient%20.png
 *System recognizes patient → displays UHID, Name, Mobile*
 
 ### 2. Multi-Person Detection + Wait Time Tracking
 
-[![Multi-Face Detection]https://github.com/Kumarrajasekharreddy/Face-Recognition-Checkin-Checkout-Dashboard/blob/main/Detects%20multiple%20patients.png
+[![Multi-Face Detection]https://github.com/Kumarrajasekharreddy/Face-Recognition-Checkin-Checkout-Dashboard/blob/main/screenshots/face-scan.png
 *Detects multiple patients → assigns ID, tracks time since check-in*
 
 ### 3. Patient Leaves → Auto-Removed from Dashboard
 
-[![Patient Left]https://github.com/Kumarrajasekharreddy/Face-Recognition-Checkin-Checkout-Dashboard/blob/main/When%20patient%20moves%20out%20of%20frame.png
+[![Patient Left]https://github.com/Kumarrajasekharreddy/Face-Recognition-Checkin-Checkout-Dashboard/blob/main/screenshots/When%20patient%20moves%20out%20of%20frame.png
 *When patient moves out of frame → removed from dashboard*
 
 ### 4. Live Waiting Patients Dashboard
 
-[![Waiting Dashboard]https://github.com/Kumarrajasekharreddy/Face-Recognition-Checkin-Checkout-Dashboard/blob/main/Shows%20patients%20waiting%20.png
+[![Waiting Dashboard]https://github.com/Kumarrajasekharreddy/Face-Recognition-Checkin-Checkout-Dashboard/blob/main/screenshots/Shows%20patients%20waiting%20.png
 *Shows patients waiting >2 mins → helps staff prioritize*
 
 ---
